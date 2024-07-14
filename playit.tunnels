@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "industrial-concentrations.gl.joinmc.link",
+          "assigned_srv": "industrial-concentrations.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "cef155e5-bac1-49b5-833e-dbc15dd29816",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 46231,
+          "port_start": 46230,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-13T20:55:00.828916Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "de3cb54d-e615-46fa-9145-2a1cc0af0aaf",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "e4763441-689b-4779-b7cc-c2e322774d02",
+          "agent_name": "from-key-558f",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
